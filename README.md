@@ -7,6 +7,7 @@ The variables collected once analysed could give insight into the major factors 
 <p>&nbsp;</p>
 
 **Table 1: Variables Summary**
+
 |**Variable**|**Details**|
 |:-----:|:-----:|
 |total\_bill|Total bill including tax in US $|
