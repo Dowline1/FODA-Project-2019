@@ -2,11 +2,11 @@
 Git Repository for Fundamentals Of Data Analysis Project 2019: Python Analysis of Tips Dataset 
 
 ## Introduction
-<p>The Tips Dataset originates from the early 1990's whereby over a period of ~ 3 months a food server recorded several variables (see below table for details) of the sales during the period.</p>
-
+<p>The Tips Dataset originates from the early 1990's whereby over a period of ~ 3 months a food server recorded several variables (see below table for details) of the sales during the period.
+The variables collected once analysed could give insight into the major factors which influence the amount of tips that are paid per bill. Using this knowledge restaurant management could make clear decisions on assigning servers to customers so that tips can be as evenly as possible distributed amongst staff as tips in the US play a major part of server earnings. </p>
 <p>&nbsp;</p>
 
-**Table 1:**<span style="text-decoration: underline">**Variables Summary**</span>
+**Table 1: Variables Summary**
 |**Variable**|**Details**|
 |:-----:|:-----:|
 |total\_bill|Total bill including tax in US $|
@@ -16,6 +16,13 @@ Git Repository for Fundamentals Of Data Analysis Project 2019: Python Analysis o
 |day|Day of week (Thur/Fri/Sat/Sun)|
 |time|Service Period (Lunch/Dinner)|
 |size|Number of Individuals in Party|
+<p>&nbsp;</p>
+
+<p>During the analysis I would expect there to be certain relationships between variables such as the total bill value 
+
+</p>
+
+## Analysis
 
 ## Conclusion
 
