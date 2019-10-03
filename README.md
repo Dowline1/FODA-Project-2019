@@ -6,7 +6,7 @@ Git Repository for Fundamentals Of Data Analysis Project 2019: Python Analysis o
 The variables collected once analysed could give insight into the major factors which influence the amount of tips that are paid per bill. Using this knowledge restaurant management could make clear decisions on assigning servers to customers so that tips can be as evenly as possible distributed amongst staff as tips in the US play a major part of server earnings. </p>
 <p>&nbsp;</p>
 
-**Table 1: Variables Summary**
+**Table 1:** <span style="text-decoration: underline">**Variables Summary**</span>
 
 |**Variable**|**Details**|
 |:-----:|:-----:|
