@@ -19,9 +19,9 @@ The variables collected once analysed could give insight into the major factors 
 |size|Number of Individuals in Party|
 <p>&nbsp;</p>
 
-<p>During the analysis I would expect there to be certain relationships between variables such as the total bill value 
+During the analysis I would expect there to be certain relationships between variables such as the total bill value and the tip amount as in the US it is an unspoken rule thet a typical tip ranges from 10%-15% of the total bill. 
+The relationships that I am interested in investigating include whether any of the other variables like gender, smoking preference, day of week or service period impact the amount of tip paid. In some cases there may be a relationship between tip paid and the party size to a point, however I expect that as is the case in some restaurants in Ireland a service charge can apply that can be up to 10% depending on the party size as can be seen in this [article](https://www.irishtimes.com/life-and-style/food-and-drink/before-you-leave-a-tip-in-an-irish-restaurant-read-this-1.3857096) which may add a bias to the analysis.
 
-</p>
 
 ## Analysis
 
