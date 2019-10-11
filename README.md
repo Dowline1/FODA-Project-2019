@@ -38,3 +38,4 @@ The relationships that I am interested in investigating include whether any of t
 - Markdown Cheatsheet [link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#headers)
 - Underlining in Markdown [link](https://stackoverflow.com/questions/44840416/how-to-make-a-word-underline-in-markdown)
 - Blank Rows/Additional Formatting in Markdown [link](https://dotcms.com/docs/latest/markdown-syntax)
+- Plot Descriptions Seaborn [link](https://towardsdatascience.com/data-visualization-using-seaborn-fc24db95a850#targetText=Seaborn%20is%20a%20Python%20data,attractive%20and%20informative%20statistical%20graphics.)
