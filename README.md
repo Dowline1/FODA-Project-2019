@@ -1,6 +1,12 @@
 # FODA-Project-2019
 Git Repository for Fundamentals Of Data Analysis Project 2019: Python Analysis of Tips Dataset 
 
+## Running the Jupyter Notebook
+1.
+2.
+3.
+
+
 ## Introduction
 <p>The Tips Dataset originates from the early 1990's whereby over a period of ~ 3 months a food server recorded several variables (see below table for details) of the sales during the period.
 The variables collected once analysed could give insight into the major factors which influence the amount of tips that are paid per bill. Using this knowledge restaurant management could make clear decisions on assigning servers to customers so that tips can be as evenly as possible distributed amongst staff as tips in the US play a major part of server earnings. </p>
@@ -39,3 +45,5 @@ The relationships that I am interested in investigating include whether any of t
 - Underlining in Markdown [link](https://stackoverflow.com/questions/44840416/how-to-make-a-word-underline-in-markdown)
 - Blank Rows/Additional Formatting in Markdown [link](https://dotcms.com/docs/latest/markdown-syntax)
 - Plot Descriptions Seaborn [link](https://towardsdatascience.com/data-visualization-using-seaborn-fc24db95a850#targetText=Seaborn%20is%20a%20Python%20data,attractive%20and%20informative%20statistical%20graphics.)
+- Statistics Quartiles Definition [link](https://www.investopedia.com/terms/q/quartile.asp#targetText=Q1%20tells%20us%20that%2025,the%20scores%20are%20above%2075.)
+- Descriptive Statistics Information [link](https://www.investopedia.com/terms/d/descriptive_statistics.asp#targetText=Descriptive%20statistics%20are%20brief%20descriptive,measures%20of%20variability%20(spread).)
