@@ -2,9 +2,15 @@
 Git Repository for Fundamentals Of Data Analysis Project 2019: Python Analysis of Tips Dataset 
 
 ## Running the Jupyter Notebook
-1.
-2.
-3.
+1. Click this [link](https://github.com/Dowline1/FODA-Project-2019) for my Github repository.
+2. Click the download button to save a copy of the repository on your machine.
+3. Make sure you have Python installed including Jupyter, if you require installation please follow instructions in this [link](https://www.anaconda.com/distribution/) to download Python via Anaconda.
+4. Use your command line such as CMDER to navigate to the folder housing the Git repository, download for CMDER found via this [link](https://cmder.net/).
+5. Once in the folder type the command "Jupyter Notebook" and click enter.
+6. This will open a Jupyter Notebook in your default web browser, click on the file "PFDA-Assignment-2019.ipynb".
+7. Once in the Jupyter Notebook itself click on Kernel then Restart And Run All as per **image below**, this will run the code and generate all graphs.
+
+<img  src="Resources/Jupyter_Instructions.png">
 
 
 ## Introduction
@@ -47,3 +53,7 @@ The relationships that I am interested in investigating include whether any of t
 - Plot Descriptions Seaborn [link](https://towardsdatascience.com/data-visualization-using-seaborn-fc24db95a850#targetText=Seaborn%20is%20a%20Python%20data,attractive%20and%20informative%20statistical%20graphics.)
 - Statistics Quartiles Definition [link](https://www.investopedia.com/terms/q/quartile.asp#targetText=Q1%20tells%20us%20that%2025,the%20scores%20are%20above%2075.)
 - Descriptive Statistics Information [link](https://www.investopedia.com/terms/d/descriptive_statistics.asp#targetText=Descriptive%20statistics%20are%20brief%20descriptive,measures%20of%20variability%20(spread).)
+- Determining Relationships between variables [link](https://machinelearningmastery.com/how-to-use-correlation-to-understand-the-relationship-between-variables/)
+- Regression Analysis [link](http://www.turingfinance.com/regression-analysis-using-python-statsmodels-and-quandl/)
+- Sample Size Calculator [link](https://www.surveysystem.com/sscalc.htm)
+- Exploring Data with Python [link](https://data-and-design.readthedocs.io/en/latest/02-introPandas.html)
