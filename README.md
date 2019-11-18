@@ -31,11 +31,37 @@ The variables collected once analysed could give insight into the major factors 
 |size|Number of Individuals in Party|
 <p>&nbsp;</p>
 
-During the analysis I would expect there to be certain relationships between variables such as the total bill value and the tip amount as in the US it is an unspoken rule thet a typical tip ranges from 10%-15% of the total bill. 
+During the analysis I would expect there to be certain relationships between variables such as the total bill value and the tip amount as in the US it is an unspoken rule that a typical tip ranges from 10%-15% of the total bill. 
 The relationships that I am interested in investigating include whether any of the other variables like gender, smoking preference, day of week or service period impact the amount of tip paid. In some cases there may be a relationship between tip paid and the party size to a point, however I expect that as is the case in some restaurants in Ireland a service charge can apply that can be up to 10% depending on the party size as can be seen in this [article](https://www.irishtimes.com/life-and-style/food-and-drink/before-you-leave-a-tip-in-an-irish-restaurant-read-this-1.3857096) which may add a bias to the analysis.
 
 
 ## Analysis
+The Tips Dataset is quite a simple array of data, it does however give some very interesting insight into the different factors that can influence both the % tip of a bill and also the amount of tip that a server can receive during a typical service period.
+
+  
+At a high level the first thing to understand from my analysis is whether a relationship actually existed between the amount of tip received and the total bill for the meal, figure 1 below show a scatter-plot comparing the total bill and the tip amount with regression line added to highlight any relationship with the two variables. 
+
+
+As can be seen in the plot the regression line is a straight one that increases as it travels along the x-axis. This indicates a linear relationship between the two variables as was expected as the general rule of thumb is around a 10% tip of total bill in Ireland anyway. 
+
+<img width="800" height="500"  src="Resources/Tip_vs_Bill_Scatter.png">
+
+
+After completing my initial analysis into regression between the variables total bill and tip, I moved on to analyse which gender tipped a higher amount. I initially thought that it would be best to analyse the differences based on the % of tip against the total bill which did indicate that percentage wise females did tip a higher amount. This can be seen in the below histogram fig 3 where the female peak was both taller and tighter indicating a larger and more consistent tip % by the female population. 
+
+<img width="800" height="500"  src="Resources/Gender_Tip_Perc_Histogram.png">
+
+
+After some additional research however into others that had analysed the tips dataset, it got me thinking from a servers perspective it is all about the amount of tip rather than statistically who tips higher. So although I found it interesting in determining what gender have a higher % of tip I created some additional plots that looked at the amount of tip that was received broken out by gender of the person paying the bill which is illustrated below in fig 4. The box plot shows that male customers gave a larger tip amount compared to the females, this could be down to more the larger population of male customers as the females are tipping higher tip percentages compared to the total bill. 
+
+<img width="800" height="500"  src="Resources/Gender_Tip_Boxplot.png">
+
+
+Further analysis was then completed that looked at days of the week and how the genders compared against each other depending on what day of the week they attended the restaurant. From this fig 5 was created in the Jupyter Notebook and again saw the males again giving more of a tip than the females with interestingly Thursday being the day giving the hightest tip amount of the weekly service. Saturday on the other hand has quite a large variance in the tip amount for males as the outliers range greatly across the Y axis.
+
+<img width="800" height="500"  src="Resources/Day_Tip_Boxplot.png">
+
+
 
 ## Conclusion
 
