@@ -35,7 +35,7 @@ During the analysis I would expect there to be certain relationships between var
 The relationships that I am interested in investigating include whether any of the other variables like gender, smoking preference, day of week or service period impact the amount of tip paid. In some cases there may be a relationship between tip paid and the party size to a point, however I expect that as is the case in some restaurants in Ireland a service charge can apply that can be up to 10% depending on the party size as can be seen in this [article](https://www.irishtimes.com/life-and-style/food-and-drink/before-you-leave-a-tip-in-an-irish-restaurant-read-this-1.3857096) which may add a bias to the analysis.
 
 
-## Analysis
+## Regression Analysis
 The Tips Dataset is quite a simple array of data, it does however give some very interesting insight into the different factors that can influence both the % tip of a bill and also the amount of tip that a server can receive during a typical service period.
 
   
@@ -47,25 +47,52 @@ As can be seen in the plot the regression line is a straight one that increases 
 <img width="800" height="500"  src="Resources/Tip_vs_Bill_Scatter.png">
 
 
-After completing my initial analysis into regression between the variables total bill and tip, I moved on to analyse which gender tipped a higher amount. I initially thought that it would be best to analyse the differences based on the % of tip against the total bill which did indicate that percentage wise females did tip a higher amount. This can be seen in the below histogram fig 3 where the female peak was both taller and tighter indicating a larger and more consistent tip % by the female population. 
+## Party Size Analysis
+Once I completed my initial analysis into regression between the variables total bill and tip, I moved on to analyse which party size tipped a higher amount. My initial line of thought was narrow in that I assumed it would be obvious that larger party sizes ordered more food and in turn had a larger tip. For the most part this is true as can be seen below in fig 3, however there is a bit of an anomaly in that the tip amount was practically the same between party sizes of 4 and 5. 
+
+<img width="800" height="500"  src="Resources/Party_Size_Tip_Boxplot.png">
+
+It looks like once you get to a party size of 4 or more the rate at which the tip increases seems to slow as they tip around the same amount which is where I can see why there may be a requirement for a service charge over a certain party size as you need more servers to facilitate a party of this size but the tip mus then be split between the servers resulting in quite a low amount of tip per person.
+
+
+## Gender Analysis 
+After analysing what I suspected would be the most obvious influencer on the tip amount in the party size, I then moved onto analysing which of the two genders gave there servers a better tip. Initially I thought that it would be best to analyse the differences based on the % of tip against the total bill which did indicate that percentage wise females did tip a higher amount. This can be seen in the below histogram fig 4 where the female peak was both taller and tighter indicating a larger and more consistent tip % by the female population. 
 
 <img width="800" height="500"  src="Resources/Gender_Tip_Perc_Histogram.png">
 
 
-After some additional research however into others that had analysed the tips dataset, it got me thinking from a servers perspective it is all about the amount of tip rather than statistically who tips higher. So although I found it interesting in determining what gender have a higher % of tip I created some additional plots that looked at the amount of tip that was received broken out by gender of the person paying the bill which is illustrated below in fig 4. The box plot shows that male customers gave a larger tip amount compared to the females, this could be down to more the larger population of male customers as the females are tipping higher tip percentages compared to the total bill. 
+After some additional research however into others that had analysed the tips dataset, it got me thinking from a servers perspective it is all about the amount of tip rather than statistically who tips higher. So although I found it interesting in determining what gender have a higher % of tip I created some additional plots that looked at the amount of tip that was received broken out by gender of the person paying the bill which is illustrated below in fig 5. The box plot shows that male customers gave a larger tip amount compared to the females, this could be down to more the larger population of male customers as the females are tipping higher tip percentages compared to the total bill. 
 
 <img width="800" height="500"  src="Resources/Gender_Tip_Boxplot.png">
 
-
-Further analysis was then completed that looked at days of the week and how the genders compared against each other depending on what day of the week they attended the restaurant. From this fig 5 was created in the Jupyter Notebook and again saw the males again giving more of a tip than the females with interestingly Thursday being the day giving the hightest tip amount of the weekly service. Saturday on the other hand has quite a large variance in the tip amount for males as the outliers range greatly across the Y axis.
+## Gender & Day Analysis
+Further analysis was then completed that looked at days of the week and how the genders compared against each other depending on what day of the week they attended the restaurant. From this fig 6 was created in the Jupyter Notebook and again saw the males again giving more of a tip than the females with interestingly Thursday being the day giving the hightest tip amount of the weekly service. Saturday on the other hand has quite a large variance in the tip amount for males as the outliers range greatly across the Y axis.
 
 <img width="800" height="500"  src="Resources/Day_Tip_Boxplot.png">
 
 
+## Smoking Preference Analysis
+The next and final part of my investigation into the Tips Dataset was on analysing whether smoking preference played a role in the tipping habits of customers attending the restaurant. I created a histogram plot to look at a high level if the % of tip could give an insight which revealed that the non-smoking customers seemed to be tipping a higher percentage compared to there total bill as can be seen in fig 8.
+
+<img width="800" height="500"  src="Resources/Smoker_Tip_Perc_Histogram.png">
+
+
+I then moved on to gain a little more insight by investigating if a combination of smoking preference and the period of service had any influence on the amount of tip received. Fig 10 shows a boxplot of this combined data of smoking preference and service period, it indicates that of the two service periods that during lunch time the smoking customers actually tipped more than there non-smoking counterparts. There could be some sort of social element to this in that they could be in a better mood and more generous as a result but it would be a hard theory to prove and may not in fact be a true influencer on the tip amount.
+
+<img width="800" height="500"  src="Resources/Smoking_Pref_Time_Tip_Boxplot.png">
+
 
 ## Conclusion
+In conclusion I did a lot of additional plots and investigation into the tips dataset that is not represented in this readme file, additional details of these plots and commentary can be found in the accompanying Jupyter Notebook which can be rerun as per the instructions at the start of this file. 
 
-[Comment]: <> (Remember to discuss variable of sex of food server which may also impact size of tip)
+
+It can be difficult for management and unsettling for servers in the restaurant business to ensure that the tips accumulated are both fairly distributed and encourage great customer service. This analysis however can give some insight to management and some assurances to anxious servers that they have a voice and that fair tips distribution will be possible by targeting those falling behind in tips with some simple profiling of there customers.
+
+
+To summarise party size may be the simplest element to identify and results in higher tips for the servers, following this targeting male paying customers can help to boost a servers tips as they seem to be tipping more than the females. Finally another good option for those falling behind in the tips they are receiving is to serve smoking customers during the lunch service which can result in a nice boost for servers that feel they are not being fairly tipped.
+
+
+On another note management could use this information to there advantage to drive customer service levels by rewarding those servers who go the extra mile in terms of customer service with the customers who from this analysis seem to tip higher so that this can encourage some friendly competition  while helping the restaurants reputation. Another variable which I noticed was not part of the dataset but would be interesting should a follow up be conducted I think should be whether the server was male or female, this might give some insight to whether male customers tip female servers better than they would males and would give a totally different dynamic to the analysis.
 
 
 ## References
@@ -83,3 +110,4 @@ Further analysis was then completed that looked at days of the week and how the 
 - Regression Analysis [link](http://www.turingfinance.com/regression-analysis-using-python-statsmodels-and-quandl/)
 - Sample Size Calculator [link](https://www.surveysystem.com/sscalc.htm)
 - Exploring Data with Python [link](https://data-and-design.readthedocs.io/en/latest/02-introPandas.html)
+- Analysis into Tips Dataset [link] (https://towardsdatascience.com/analyze-the-data-through-data-visualization-using-seaborn-255e1cd3948e)
