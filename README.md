@@ -32,6 +32,8 @@ The variables collected once analysed could give insight into the major factors 
 <p>&nbsp;</p>
 
 During the analysis I would expect there to be certain relationships between variables such as the total bill value and the tip amount as in the US it is an unspoken rule that a typical tip ranges from 10%-15% of the total bill. 
+
+
 The relationships that I am interested in investigating include whether any of the other variables like gender, smoking preference, day of week or service period impact the amount of tip paid. In some cases there may be a relationship between tip paid and the party size to a point, however I expect that as is the case in some restaurants in Ireland a service charge can apply that can be up to 10% depending on the party size as can be seen in this [article](https://www.irishtimes.com/life-and-style/food-and-drink/before-you-leave-a-tip-in-an-irish-restaurant-read-this-1.3857096) which may add a bias to the analysis.
 
 
@@ -52,11 +54,11 @@ Once I completed my initial analysis into regression between the variables total
 
 <img width="800" height="500"  src="Resources/Party_Size_Tip_Boxplot.png">
 
-It looks like once you get to a party size of 4 or more the rate at which the tip increases seems to slow as they tip around the same amount which is where I can see why there may be a requirement for a service charge over a certain party size as you need more servers to facilitate a party of this size but the tip mus then be split between the servers resulting in quite a low amount of tip per person.
+It looks like once you get to a party size of 4 or more the rate at which the tip increases seems to slow as they tip around the same amount which is where I can see why there may be a requirement for a service charge. Once a certain party size is achieved this charge will be introduced as you need more servers to facilitate a party of this size but the tip must then be split between the servers resulting in quite a low amount of tip per person.
 
 
 ## Gender Analysis 
-After analysing what I suspected would be the most obvious influencer on the tip amount in the party size, I then moved onto analysing which of the two genders gave there servers a better tip. Initially I thought that it would be best to analyse the differences based on the % of tip against the total bill which did indicate that percentage wise females did tip a higher amount. This can be seen in the below histogram fig 4 where the female peak was both taller and tighter indicating a larger and more consistent tip % by the female population. 
+After analysing what I suspected would be the most obvious influencer on the tip amount is the party size, I then moved onto analysing which of the two genders gave there servers a better tip. Initially I thought that it would be best to analyse the differences based on the % of tip against the total bill which did indicate that percentage wise females did tip a higher amount. This can be seen in the below histogram fig 4 where the female peak was both taller and tighter indicating a larger and more consistent tip % by the female population. 
 
 <img width="800" height="500"  src="Resources/Gender_Tip_Perc_Histogram.png">
 
@@ -110,4 +112,4 @@ On another note management could use this information to there advantage to driv
 - Regression Analysis [link](http://www.turingfinance.com/regression-analysis-using-python-statsmodels-and-quandl/)
 - Sample Size Calculator [link](https://www.surveysystem.com/sscalc.htm)
 - Exploring Data with Python [link](https://data-and-design.readthedocs.io/en/latest/02-introPandas.html)
-- Analysis into Tips Dataset [link] (https://towardsdatascience.com/analyze-the-data-through-data-visualization-using-seaborn-255e1cd3948e)
+- Analysis into Tips Dataset [link](https://towardsdatascience.com/analyze-the-data-through-data-visualization-using-seaborn-255e1cd3948e)
